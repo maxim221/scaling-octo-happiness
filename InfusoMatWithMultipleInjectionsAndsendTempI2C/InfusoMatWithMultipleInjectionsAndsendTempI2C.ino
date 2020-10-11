@@ -642,7 +642,7 @@ void procedureScreen(){
     selectScreen = 7;
     screenCleared = false;
   }
-  evaluateTDifference();//fdsafdsafdsafdsaf
+  evaluateTDifference();
   checkAlarm();
    
   if ((millis() / procedureScreenSwitchRate) % 2 == 0) {
